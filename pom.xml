@@ -345,7 +345,7 @@
         <!-- why are we excluding then re-including a different version of hsql? -->
         <groupId>org.hsqldb</groupId>
         <artifactId>hsqldb</artifactId>
-        <version>2.0.0</version>
+        <version>2.7.1</version>
       </dependency>
       <!-- 
         JTS is a transitive dependency of Geotools, but some submodules only need JTS
@@ -394,7 +394,7 @@
         <!-- Logback is an implemetation of the SLF4J API (basically a new and improved log4j) -->
         <groupId>ch.qos.logback</groupId>
         <artifactId>logback-classic</artifactId>
-        <version>1.0.13</version>
+        <version>1.2.13</version>
       </dependency>
       <dependency>
         <!-- Jersey uses java.util logging, redirect it via slf4j API to Logback -->
@@ -431,7 +431,7 @@
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
-        <version>4.8.1</version>
+        <version>4.13.1</version>
         <scope>test</scope>
       </dependency>      
       <dependency>
@@ -451,7 +451,7 @@
     <geotools.version>9.2</geotools.version>
     <slf4j.version>1.7.5</slf4j.version>
     <jersey.version>1.17.1</jersey.version>
-    <spring.version>3.0.5.RELEASE</spring.version>
+    <spring.version>5.2.22.RELEASE</spring.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <distribution_id>opengeo</distribution_id>
     <distribution_name>OpenGeo Maven Repository</distribution_name>
